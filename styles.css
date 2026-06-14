@@ -314,3 +314,69 @@ body {
   background: #1f1a17;
   color: #f7f1e8;
 }
+@media (max-width: 768px) {
+  .site-header {
+    flex-direction: column;
+    gap: 16px;
+    padding: 20px;
+  }
+
+  .brand {
+    font-size: 28px;
+  }
+
+  .main-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+  }
+
+  .main-nav a {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+
+  .hero {
+    padding: 80px 20px 90px;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+
+  .hero p:nth-of-type(2) {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .manifesto,
+  .services,
+  .about,
+  .contact-cta {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .manifesto h2,
+  .about h2,
+  .contact-cta h2 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  .service-list h3 {
+    font-size: 24px;
+  }
+
+  .service-list p,
+  .about > p:last-child {
+    font-size: 16px;
+  }
+
+  .contact-cta a,
+  .hero a {
+    padding: 14px 22px;
+    font-size: 13px;
+  }
+}
