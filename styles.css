@@ -358,3 +358,56 @@ a[href*="wa.me"]:last-of-type {
   .service-list p,
   .about > p:last-child {
     font-size: 16px;
+  }
+
+  .manifesto h2,
+  .about h2,
+  .contact-cta h2 {
+    font-size: 30px;
+  }
+
+  .service-list h3 {
+    font-size: 24px;
+  }
+
+  .site-header,
+  .hero,
+  .manifesto,
+  .services,
+  .about,
+  .contact-cta,
+  .site-footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1,
+  .hero h1 {
+    font-size: 34px;
+  }
+
+  .manifesto h2,
+  .about h2,
+  .contact-cta h2 {
+    font-size: 26px;
+  }
+
+  .main-nav a {
+    font-size: 13px;
+  }
+
+  .hero p:last-of-type,
+  section p,
+  .service-list p,
+  .about > p:last-child {
+    font-size: 15px;
+  }
+
+  .hero a,
+  .contact-cta a {
+    width: 100%;
+    max-width: 280px;
+  }
+}
